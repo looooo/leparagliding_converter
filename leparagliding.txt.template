@@ -15,16 +15,15 @@
 * Wing scale 
 1.
 * Number of cells
-	27
+	{{ num_cells }}
 * Number of ribs
-	28
+	{{ num_ribs }}
 * Alpha max and parameter 
-	4.5	1
+	{{ alpha_max }}	1
 * Paraglider type and parameter
   "ds" 	1
 * Rib geometric parameters
-* Rib	x-rib	y-LE	y-TE	xp	z	beta	RP	Washin
-{{ shape }}
+*{{ rib_geo }}
 **************************************************************
 *             2. AIRFOILS       	                     *
 **************************************************************
@@ -110,17 +109,17 @@ Extrados
 *           8. Global angle of attack estimation           *
 *************************************************************
 * Finesse GR
-	7.5
+	{{ GR }}
 * Center of pressure % of chord
 	40
 * Calage %
 	31
-* Risers lenght cm
-	47
-* Line lenght cm
-	680
-* Karabiners cm
-	40
+* Risers lenght m
+	0.47
+* Line lenght m
+	6.80
+* Karabiners m
+	0.04
 ***************************************************
 *          9. SUSPENSION LINES DESCRIPTION
 ***************************************************
