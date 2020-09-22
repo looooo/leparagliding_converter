@@ -19,7 +19,7 @@
 * Number of ribs
 	{{ num_ribs }}
 * Alpha max and parameter 
-	{{ alpha_max }}	1
+	{{ alpha_max }}	0
 * Paraglider type and parameter
   "ds" 	1
 * Rib geometric parameters
@@ -113,13 +113,13 @@ Extrados
 * Center of pressure % of chord
 	40
 * Calage %
-	31
-* Risers lenght m
-	0.47
-* Line lenght m
-	6.80
-* Karabiners m
-	0.04
+	40
+* Risers lenght cm
+	47
+* Line lenght cm
+	680
+* Karabiners cm
+	4
 ***************************************************
 *          9. SUSPENSION LINES DESCRIPTION
 ***************************************************
